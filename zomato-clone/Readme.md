@@ -1,6 +1,6 @@
 ## Zomato Clone for Recipes
 
-Actual website is hosted [here](https://vibrantachintya.github.io/zomato-clone/). Check screenshots below.
+Actual website is hosted [here]. Check screenshots below.
 
 ![](https://raw.githubusercontent.com/vibrantachintya/zomato-clone/master/images/zomato_scrrenshots1.png)
 ![](https://raw.githubusercontent.com/vibrantachintya/zomato-clone/master/images/zomato_scrrenshots2.png)
