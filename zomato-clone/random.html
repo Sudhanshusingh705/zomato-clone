@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        h1 {
+            color: rgb(54, 54, 54);
+            text-align: center;
+        }
+
+        #recipe-container {
+            text-align: center;
+            width: 60%;
+            margin: 0px auto;
+        }
+
+        #recipe-container img {
+            width: 500px;
+            border-radius: 20px;
+        }
+
+        #recipe-container > div > div > div > p {
+            margin: 0px;
+            background: #f8f8f8;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+
+        #recipe-container > div > div > p {
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+        }
+
+        #recipe-container > div > div > iframe {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar">
+        
+    </div>
+
+    <h1>Recipe of The Day</h1>
+
+    <div id="recipe-container"></div>
+
+    <script type="module" src="./scripts/script.js"></script>
+    <script type="module" src="./scripts/random.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+#recipes-container {
+  width: 70%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 15px;
+  column-gap: 15px;
+}
+
+#recipes-container > div > img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#recipes-container > div > div {
+  border: 1px solid rgb(232, 232, 232);
+  margin-top: -5px;
+  padding: 0px 15px 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#recipes-container > div > div > div > p {
+  margin: 0px;
+  background: #f8f8f8;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#recipes-container > div > div > a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}

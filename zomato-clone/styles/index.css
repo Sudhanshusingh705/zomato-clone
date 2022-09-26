@@ -1,0 +1,16 @@
+#main-content {
+  background-image: url("../images/bg_cover.png");
+  background-size: cover;
+  text-align: center;
+  padding: 125px 0px 150px;
+}
+
+#search-input {
+  width: 450px;
+  font-size: 1.2rem;
+  padding: 15px 25px;
+  font-family: Okra;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
